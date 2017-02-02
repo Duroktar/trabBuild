@@ -1,0 +1,39 @@
+trabBuild
+=========
+
+Update and build your python projects in one step.
+
+
+Install
+-------
+
+For editable install from the trabBuild directory. ::
+
+    pip install -e .
+
+Or install from setup.py ::
+
+    python setup.py install
+
+
+Usage
+-----
+
+Navigate to the directory with your package and setup.py file and type. ::
+
+    $ trabbuild
+
+***NOTE***
+**Package version must be specified in setup.py with this format** ::
+
+    __version__ = "x.x.x"
+
+You will be prompted to enter a new version number that's higher than the current version.
+
+
+Sample
+------
+
+.. image:: trabBuild.png
+    :align: center
+    :alt: alternate text
