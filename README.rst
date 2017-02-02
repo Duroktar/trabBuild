@@ -29,6 +29,7 @@ setup.py bdist_wheel --universal` to build your package.
 
 Once built you will be given the option to upload your package to
 PyPi with `twine`. *NOTE: You must already have an account on PyPi for this part to work.*
+
 ***NOTE***
 **Package version must be specified in setup.py with this format** ::
 
