@@ -1,11 +1,11 @@
-python:
+python:    # TODO
 - "2.7"
 - "3.5"
 
-install:
+install:   # TODO
 - pip install -r requirements.txt
 
-tests:
+tests:     # TODO
 - python -m nose
 - nosetests -v
 
