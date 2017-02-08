@@ -105,7 +105,7 @@ def get_commands_from_yaml(target):
         return yaml.load(f.read())
 
 CUSTOM_COMMANDS_FILE = 'trabbuild.yml'
-COMMANDS = get_commands_from_yaml(CUSTOM_COMMANDS_FILE)['Commands']
+COMMANDS = get_commands_from_yaml(CUSTOM_COMMANDS_FILE)['builds']
 
 for cmd in COMMANDS:
     try:
