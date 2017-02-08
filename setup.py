@@ -32,7 +32,7 @@ setup(
     install_requires=install_requires,
     entry_points={
         'console_scripts': [
-            'trabbuild = trabbuild.__main__'
+            'trabbuild = trabbuild.__init__:main'
         ]
     }
 )
